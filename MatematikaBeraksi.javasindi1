@@ -1,0 +1,21 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package Matematika;
+
+import Matematika.Matematika;
+
+/**
+ *
+ * @author USER
+ */
+public class MatematikaBeraksi {
+   public static void main (String[] args){
+       Matematika hasil = new Matematika ();
+       hasil.pertambahan(10, 10);
+       hasil.pengurangan(15, 10);
+       hasil.perkalian(50, 2);
+       hasil.pembagian(12, 2);
+   }    
+}
